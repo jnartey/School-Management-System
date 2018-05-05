@@ -118,7 +118,6 @@ public class MainEntryClass
                     
                     insROLE = insDAO.validateUser(ins, password);
                     
-                    
                     if("Admin".equals(insROLE)) {
                         teaDAO = new TeachingDAO();
                         mainObj.allCoursesWithInstructor();
